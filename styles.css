@@ -99,3 +99,38 @@ ul li{
 ul li:before {
     content: '✓ ';
   }
+
+
+
+  /* random style */
+.random{
+    width: 80%;
+    height: 270px;
+    background-color: brown;
+    margin: 100px auto;
+    background-image: url('./images/watch.png'), url('./images/gradient3.png');
+    background-blend-mode: overlay;
+    background-position: center ,center;
+    background-repeat: no-repeat ,no-repeat;
+    background-size: cover, cover;
+    border-radius: 10px;
+
+}
+.r1{
+    padding: 60px;
+    
+}
+.h{
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.b{
+    border: 0px;
+    padding: 12px 25px ;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: yellow;
+
+}
+
