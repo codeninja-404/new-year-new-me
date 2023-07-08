@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* shared styles */
+
+.btn-prim{
+    border: 0px;
+    color: aliceblue;
+    background-color: orangered;
+    padding:  10px 20px;
+    border-radius: 5px;
+
+}
+
+/* header styles */
+
+
+.banner-container{
+    background-image: url('./images/banner/banner1.png');
+    height: 700px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    
+}  
+
+
+.banner-description{
+    text-align: end;
+    width: 500px;
+    height: 300px;
+    margin: 150px;
+    padding-bottom: 50px;
+    
+
+}
+
+.banner-description{
+    
+    
+}
+
+.banner-title{
+    font-size:65px;
+    padding: 20px 0px;
+}
+
+.banner-info{
+    font-size: larger ;
+    padding: 20px 0px;
+}
